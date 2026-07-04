@@ -1,0 +1,18 @@
+# Data files
+backend/data/
+backend/__pycache__/
+
+# PNG outputs
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
