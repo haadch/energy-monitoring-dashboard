@@ -1,6 +1,9 @@
-# Data files
-backend/data/
-backend/__pycache__/
+# Data files — full data private
+backend/data/*.csv
+backend/data/energy_*.csv
+
+# Allow sample data for deployment
+!backend/data/sample/
 
 # PNG outputs
 *.png
