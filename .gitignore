@@ -2,6 +2,8 @@
 backend/data/*.csv
 backend/data/energy_*.csv
 
+Backup/
+
 # Allow sample data for deployment
 !backend/data/sample/
 
