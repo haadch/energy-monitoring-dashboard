@@ -2,8 +2,11 @@
 
 A full-stack energy monitoring application built on real anonymized industrial meter data. The system processes raw WiFi-based smart meter readings, detects connectivity gaps, validates against billing data, and forecasts future consumption using Facebook Prophet.
 
-## Live Demo
-> Deployment coming soon
+## Dashboard Preview
+
+![Dashboard Overview showing a web dashboard with KPI cards, multi-line energy consumption charts, and filter controls for date ranges; the interface displays a clean, professional analytics layout for monitoring industrial energy use and trends.](assets/dashboard-overview.png)
+
+![Forecast View showing a forecast panel with a line chart of predicted energy consumption, confidence intervals, and date-based forecasting controls; the dashboard uses a modern analytics design with a calm, data-focused business environment.](assets/forecast-view.png)
 
 ## Project Highlights
 
