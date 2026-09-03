@@ -98,4 +98,4 @@ Data anonymized from real industrial meter readings. Branch identifiers replaced
 
 ## Author
 
-Haad — Junior Data Analyst, BSc Statistics with Data Science
+Haad Ud Din Ahmed  — Data Analyst, BSc Statistics with Data Science
