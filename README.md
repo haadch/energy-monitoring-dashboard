@@ -67,14 +67,14 @@ React Dashboard         — Interactive charts, KPI cards, date range filtering
 
 ## API Endpoints
 
-| Endpoint     | Description                                      |
-|--------------|---------------------------------------------------|
-| `GET /health`   | API status                                      |
-| `GET /summary`  | KPI metrics                                     |
-| `GET /daily`    | Daily consumption (filterable by date range)    |
-| `GET /forecast` | 14-day prediction with confidence bounds        |
-| `GET /shifts`   | Shift-wise breakdown (filterable by date range) |
-| `GET /hourly`   | Hourly pattern for a selected date              |
+```
+GET /health    — API status
+GET /summary   — KPI metrics
+GET /daily     — Daily consumption (filterable by date range)
+GET /forecast  — 14-day prediction with confidence bounds
+GET /shifts    — Shift-wise breakdown (filterable by date range)
+GET /hourly    — Hourly pattern for a selected date
+```
 
 ## Setup
 
