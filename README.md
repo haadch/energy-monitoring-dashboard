@@ -29,21 +29,23 @@ A full-stack energy monitoring application built on real anonymized industrial m
 
 ## Pipeline Architecture
 
-    Raw Meter Data (CSV)
-↓
-01_explore.py        — EDA, data profiling
-↓
-02_clean.py          — Solar subtraction, datetime parsing, delta calculation
-↓
-03b_resample_5min.py — 5-minute grid resampling, gap detection and filling
-↓
-04_features_5min.py  — Shift classification, business day boundary, connectivity flags
-↓
-05_forecast.py       — Prophet model training, accuracy evaluation, 14-day forecast
-↓
-FastAPI Backend       — REST API serving processed data as JSON
-↓
-React Dashboard      — Interactive charts, KPI cards, date range filtering
+```
+Raw Meter Data (CSV)
+        ↓
+01_explore.py         — EDA, data profiling
+        ↓
+02_clean.py            — Solar subtraction, datetime parsing, delta calculation
+        ↓
+03b_resample_5min.py   — 5-minute grid resampling, gap detection and filling
+        ↓
+04_features_5min.py    — Shift classification, business day boundary, connectivity flags
+        ↓
+05_forecast.py         — Prophet model training, accuracy evaluation, 14-day forecast
+        ↓
+FastAPI Backend         — REST API serving processed data as JSON
+        ↓
+React Dashboard         — Interactive charts, KPI cards, date range filtering
+```
 
 ## Key Engineering Decisions
 
